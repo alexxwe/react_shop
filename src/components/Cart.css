@@ -9,8 +9,12 @@
   }
   
   .cart img {
-    aspect-ratio: 16/9;
+    border-radius: 4px;
     width: 100%;
+    aspect-ratio: 16/9;
+    display: block;
+    object-fit: contain;
+    background: #fff;
   }
   
   .cart li {
